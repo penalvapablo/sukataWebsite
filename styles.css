@@ -212,10 +212,11 @@ html {
 }
 
 .horarios__mobile {
-  height: 750px;
+  height: 850px;
 }
 
 .horarios__mobile h2 {
+  font-size: 26px;
   color: white;
   text-align: center;
 }
@@ -226,12 +227,14 @@ html {
 
 .horarios__mobile h3 {
   color: #A85050;
+  font-size: 22px;
   text-align: center;
   margin-top: 30px;
 }
 
 .horarios__mobile p {
   color: white;
+  font-size: 20px;
 
   text-align: center;
 }
@@ -247,7 +250,7 @@ html {
   padding: 5px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1200px) {
   .horarios__mobile {
     display: none;
   }
@@ -328,9 +331,10 @@ footer {
 
 .footer__msg {
   color: white;
-  font-size: 20px;
-  width: 315px;
+  font-size: 16px;
+  width: 350px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .footer__redes {
@@ -345,15 +349,13 @@ footer {
   display: none;
 }
 
-.fa-whatsapp {
-  font-size: 50px;
-  color: white;
-}
-
+.fa-whatsapp,
+.fa-facebook-f,
 .fa-instagram {
   font-size: 50px;
   color: white;
 }
+
 
 .footer__direccion {
   text-align: center;
@@ -372,6 +374,15 @@ footer {
   padding: 10px;
   margin: 0;
 }
+
+@media screen and (min-width: 500px) {
+  .footer__msg {
+    font-size: 20px;
+    width: 400px;
+
+  }
+}
+
 
 @media screen and (min-width: 1200px) {
   #contacto {
