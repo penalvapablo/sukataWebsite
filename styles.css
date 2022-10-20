@@ -67,7 +67,8 @@ html {
 }
 
 /* Nav */
-.nav {
+.nav,
+.nav2 {
   display: none;
 }
 
