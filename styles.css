@@ -99,6 +99,10 @@ html {
     color: #A85050
   }
 
+  .active {
+    color: #A85050
+  }
+
   .nav__logo {
     width: 200px;
     position: absolute;
@@ -106,12 +110,34 @@ html {
     margin-left: -100px;
     top: -75px;
   }
+
+  .nav2 {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    transition: all .2s;
+    opacity: 0;
+  }
+
+  .show {
+    opacity: 1;
+  }
 }
+
+/* NAV 2 */
+
 
 /* Nosotros */
 .nosotros {
   background-color: #E0E0E0;
   padding: 30px 0;
+
 }
 
 
@@ -342,7 +368,7 @@ footer {
   justify-content: center;
   gap: 30px;
   text-align: center;
-  margin: 20px
+  margin: 40px 20px
 }
 
 .mapouter {
@@ -362,7 +388,7 @@ footer {
   color: white;
   font-size: 20px;
   width: 315px;
-  margin: 0 auto 20px;
+  margin: 0 auto 40px;
 
 }
 
@@ -407,12 +433,17 @@ footer {
     justify-content: space-around;
   }
 
+  .footer__redes {
+    margin: 20px;
+  }
+
   .footer__direccion {
     display: none;
-
+    margin: 0 auto 20px;
   }
 
   .footer__copyright {
+    font-size: 12px;
     background-color: #2A323D;
     margin-top: 50px;
   }
